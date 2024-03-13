@@ -1,9 +1,5 @@
 # _config.yml
 
-# Basic Configuration
-title: My Awesome Website
-description: Embrace the Complexity!
-
 # Theme Configuration
 remote_theme: mmistakes/minimal-mistakes@4.26.0
 
@@ -19,79 +15,9 @@ layout:
   home: splash
   posts: archive
 
-# Advanced SEO
-seo:
-  google_analytics: UA-12345678-1
-  social:
-    twitter: "@AwesomeTweeter"
-    facebook: "/AwesomeFacebookPage"
 
-# Code Highlighting
-highlighter: rouge
-rouge:
-  theme: monokai
-  tab_width: 4
 
-# Navigation
-navbar:
-  items:
-    - text: Home
-      url: /
-    - text: Blog
-      url: /blog
-    - text: About
-      url: /about
 
-# External Services
-services:
-  comments: disqus
-  disqus:
-    shortname: your-disqus-shortname
 
-# Pagination
-pagination:
-  enabled: true
-  per_page: 10
-  permalink: '/page/:num/'
 
-# Custom Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-archives
-  - jekyll-redirect-from
-  - jekyll-toc
 
-# Custom Collections
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-# Custom Variables
-variables:
-  author: John Doe
-  email: john.doe@example.com
-
-# Social Media
-social:
-  twitter: "@AwesomeTweeter"
-  github: "githubusername"
-  linkedin: "linkedinusername"
-
-# Custom 404 Page
-defaults:
-  - scope:
-      path: ""
-      type: "404.html"
-    values:
-      layout: "default"
-      title: "404 - Not Found"
-
-# Deployment Configuration
-deploy:
-  provider: git
-  repo: git@github.com:username/repo.git
-  branch: gh-pages
