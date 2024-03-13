@@ -1,7 +1,8 @@
 # _config.yml
-
 # Theme Configuration
 remote_theme: mmistakes/minimal-mistakes@4.26.0
+plugins:
+- jekyll-remote-theme
 
 
 
