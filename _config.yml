@@ -3,17 +3,6 @@
 # Theme Configuration
 remote_theme: mmistakes/minimal-mistakes@4.26.0
 
-# Custom Styling
-style:
-  background-color: "#1a1a1a"
-  text-color: "#ffffff"
-  link-color: "#00bfff"
-
-# Layout and Design
-layout:
-  default: default
-  home: splash
-  posts: archive
 
 
 
